@@ -5,7 +5,7 @@
 #include "freertos/semphr.h"
 #include "freertos/timers.h"
 
-//case: job queue
+//case: jobs queue
 typedef enum {
     JOB_PRINT_TEXT,
     JOB_PRINT_NUMBER
@@ -82,7 +82,7 @@ void timer_callback_2(TimerHandle_t xTimer)
     xTaskCreate(client_task_2, "client_task_2", 2048, NULL, 1, NULL);
 }
 
-void job_queue(void)
+void jobs_queue(void)
 {
     xQueue = xQueueCreate(10, sizeof(job_t));
     if (xQueue == NULL) {
@@ -119,5 +119,5 @@ void job_queue(void)
 
 void app_main(void)
 {
-    job_queue();
+    jobs_queue();
 }
