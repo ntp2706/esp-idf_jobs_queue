@@ -1,0 +1,193 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7176
+load:0x40078000,len:15564
+ho 0 tail 12 room 4
+load:0x40080400,len:4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (31) boot: ESP-IDF v5.3.1-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Jun 21 2025 19:50:12[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (36) boot: chip revision: v3.0[0m
+[0;32mI (40) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (49) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (59) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (70) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (77) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (85) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (92) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0962ch ( 38444) map[0m
+[0;32mI (118) esp_image: segment 1: paddr=00019654 vaddr=3ffb0000 size=0231ch (  8988) load[0m
+[0;32mI (122) esp_image: segment 2: paddr=0001b978 vaddr=40080000 size=046a0h ( 18080) load[0m
+[0;32mI (131) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=13894h ( 80020) map[0m
+[0;32mI (160) esp_image: segment 4: paddr=000338bc vaddr=400846a0 size=08ec8h ( 36552) load[0m
+[0;32mI (181) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (181) boot: Disabling RNG early entropy source...[0m
+[0;32mI (193) cpu_start: Multicore app[0m
+[0;32mI (201) cpu_start: Pro cpu start user code[0m
+[0;32mI (201) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (202) app_init: Application information:[0m
+[0;32mI (204) app_init: Project name:     tasks_management[0m
+[0;32mI (210) app_init: App version:      1[0m
+[0;32mI (214) app_init: Compile time:     Jun 21 2025 19:49:26[0m
+[0;32mI (220) app_init: ELF file SHA256:  c8e3de3dd...[0m
+[0;32mI (226) app_init: ESP-IDF:          v5.3.1-dirty[0m
+[0;32mI (231) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (236) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (241) efuse_init: Chip rev:         v3.0[0m
+[0;32mI (246) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (253) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (259) heap_init: At 3FFB2D28 len 0002D2D8 (180 KiB): DRAM[0m
+[0;32mI (265) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (271) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (278) heap_init: At 4008D568 len 00012A98 (74 KiB): IRAM[0m
+[0;32mI (286) spi_flash: detected chip: generic[0m
+[0;32mI (289) spi_flash: flash io: dio[0m
+[0;33mW (293) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (306) main_task: Started on CPU0[0m
+[0;32mI (316) main_task: Calling app_main()[0m
+Creating nor task
+nor running: 1
+nor running: 2
+nor running: 3
+nor running: 4
+nor running: 5
+nor running: 6
+nor running: 7
+nor running: 8
+[0;32mI (326) main_task: Returned from app_main()[0m
+nor running: 9
+nor running: 10
+nor running: 11
+nor running: 12
+nor running: 13
+nor running: 14
+nor running: 15
+nor running: 16
+nor running: 17
+nor running: 18
+nor running: 19
+nor running: 20
+nor running: 21
+nor running: 22
+nor running: 23
+nor running: 24
+nor running: 25
+nor running: 26
+nor running: 27
+nor running: 28
+nor running: 29
+nor running: 30
+nor running: 31
+nor running: 32
+nor running: 33
+nor running: 34
+nor running: 35
+nor running: 36
+nor running: 37
+nor running: 38
+nor running: 39
+nor running: 40
+nor running: 41
+nor running: 42
+nor running: 43
+nor running: 44
+nor running: 45
+nor running: 46
+nor running: 47
+nor running: 48
+nor running: 49
+nor running: 50
+nor running: 51
+nor running: 52
+nor running: 53
+nor running: 54
+nor running: 55
+nor running: 56
+nor running: 57
+nor running: 58
+nor running: 59
+nor running: 60
+nor running: 61
+nor running: 62
+nor running: 63
+nor running: 64
+nor running: 65
+nor running: 66
+Timer callback: Creating mid task
+nor stop...
+mid suspend nor
+Timer callback: Creating prior task
+mid running: 1
+prior running: 1
+prior running: 2
+prior running: 3
+prior running: 4
+prior running: 5
+prior running: 6
+prior running: 7
+prior running: 8
+prior running: 9
+prior running: 10
+prior running: 11
+prior running: 12
+prior running: 13
+prior running: 14
+prior running: 15
+prior running: 16
+prior running: 17
+prior running: 18
+prior running: 19
+prior running: 20
+prior running: 21
+prior running: 22
+prior running: 23
+prior running: 24
+prior running: 25
+prior running: 26
+prior running: 27
+prior running: 28
+prior running: 29
+prior running: 30
+prior running: 31
+prior running: 32
+prior running: 33
+prior running: 34
+prior running: 35
+prior running: 36
+prior running: 37
+prior running: 38
+prior running: 39
+prior running: 40
+prior running: 41
+prior running: 42
+prior running: 43
+prior running: 44
+prior running: 45
+prior running: 46
+prior running: 47
+prior running: 48
+prior running: 49
+prior running: 50
+prior running: 51
+prior running: 52
+prior running: 53
+prior running: 54
+prior running: 55
+prior running: 56
+prior running: 57
+prior running: 58
+prior running: 59
+prior running: 60
+prior running: 61
+prior stop...
+mid running: 2
+mid stop...

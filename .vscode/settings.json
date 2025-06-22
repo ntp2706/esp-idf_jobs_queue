@@ -1,0 +1,16 @@
+{
+    "C_Cpp.errorSquiggles": "disabled",
+    "C_Cpp.intelliSenseEngine": "Tag Parser",
+    "C_Cpp.configurationWarnings": "disabled",
+    "files.associations": {
+        "*.h": "c",
+        "*.c": "c"
+    },
+    "C_Cpp.default.compilerPath": "C:/Espressif/tools/xtensa-esp32-elf/esp-13.2.0_20230928/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc.exe",
+    "idf.adapterTargetName": "esp32",
+    "idf.customExtraPaths": "C:/Espressif/frameworks/esp-idf-v5.3.1/components/esp32-camera",
+    "idf.customExtraVars": {
+        "EXTRA_COMPONENT_DIRS": "C:/Espressif/frameworks/esp-idf-v5.3.1/components"
+    },
+    "idf.portWin": "COM4"
+}
